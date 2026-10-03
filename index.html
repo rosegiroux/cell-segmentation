@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta name = "viewport" content = "width = device-width">
+    
+    
+      <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: #333;
+        background-color: #f5f5f5;
+      }
+      </style>
+    <meta charset="utf-8">
+	
+	<link rel="stylesheet" href="style.css">
+	<script>
+		function parseRssFeed(xml) {
+			var rssItems = xml.getElementsByTagName("item");
+			var rssFeedHtml = "";
+			for (var i = 0; i < rssItems.length; i++) {
+				var rssTitle = rssItems[i].getElementsByTagName("title")[0].textContent;
+				var rssLink = rssItems[i].getElementsByTagName("link")[0].textContent;
+				var rssPubDate = rssItems[i].getElementsByTagName("pubDate")[0].textContent;
+				rssFeedHtml += "<a href='" + rssLink + "'>" + rssTitle + "</a><br>" + rssPubDate + "<br><br>";
+			}
+			document.getElementById("rss-feed").innerHTML = rssFeedHtml;
+		}
+
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var xml = this.responseXML;
+				parseRssFeed(xml);
+			}
+		};
+		xhr.open("GET", "https://pubmed.ncbi.nlm.nih.gov/rss/search/1PqbW6kGMDPb-zIDCRdv6meU86cRBRoncMKTQB6rGwcvTwZk4d/?limit=15&utm_campaign=pubmed-2&fc=20230515125947", true);
+		xhr.send();
+	</script>
+	</section>
+	
+		
+ 
+    
+    <nav><h1><mark>My Github with some code</mark></h1>
+    <p>
+    <ul>
+    <li><a href="https://github.com/rosegiroux/pharma" class="extra-link">My Github</a></li>
+    	
+     </ul>
+     </p>
+     </nav>
+  
+<header>
+  
+	
+	<h1><mark>RG Long Publications</h1></mark>
+  
+  </header>
+  <body>
+  
+  
+<hl>
+   <br>
+
+<article>
+<h2><a href="https://pubmed.ncbi.nlm.nih.gov/39976317/">Active cell proliferation contributes to the enlargement of the nascent nucleus pulposus</a></h2>
+
+	<nav>
+			<ul>
+				<li>PMID: 39976317  DOI: 10.1002/dvdy.70005</li>
+			</ul>
+			</nav>
+			
+		<main>
+			<p><a href="https://pubmed.ncbi.nlm.nih.gov/39976317/">Link</a></p>
+				<p><h3>Abstract</h3></p>
+				<p> <a style="line-height: 1.5;">Abstract Background: The notochord is an embryonic organ involved in forming and patterning the spinal column. The mechanism by which the notochord transforms from a continuous rod to a segmented structure excluded from the vertebrae and residing solely as the nucleus pulposus within the intervertebral disc is understudied. The current model of notochordal segmentation suggests that swelling through formation and maturation of the vertebrate cartilage squeezes the notochord cells from the vertebra.
+Results: Analysis of Collagen 10, a marker for hypertrophic differentiation, as well as evaluation of changes in cell density, reveal that the expansion of the vertebral precursor cells occurs after notochord segmentation has already taken place. We find that the bulk of the nucleus pulposus is derived from accelerated proliferation within the nucleus pulposus itself. In a model of cell proliferation, the increased proliferation at the nucleus pulposus importantly contributes to expand the nucleus pulposus area.
+Conclusions: Our data is consistent with the hypothesis that notochord cell proliferation contributes to the enlargement of the nucleus pulposus before the vertebra undergo hypertrophy.</p>
+			<p><a href= "https://pubmed.ncbi.nlm.nih.gov/39976317/" class="read-more-link"> Read more (pdf link coming soon) >></a></p>
+		</main>
+
+<br>
+<frame>
+
+<h2><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084058/">Morphological and biomechanical effects of annulus fibrosus injury and repair in an ovine cervical model</a></h2>
+   
+		<nav>
+			<ul>
+				<li>PMID: 32211587  PMCID: PMC7084058  DOI: 10.1002/jsp2.1074</li>
+			</ul>
+			</nav>
+			
+		<main>
+			<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084058/">Link</a></p>
+				<p><h3>Abstract</h3></p>
+				<p> <a style="line-height: 1.5;">Tissue engineering repair of annulus fibrosus (AF) defects has the potential to prevent disability and pain from intervertebral disc (IVD) herniation and its progression to degeneration. Clinical translation of AF repair methods requires assessment in long‐term large animal models. An ovine AF injury model was developed using cervical spinal levels and a biopsy‐type AF defect to assess composite tissue engineering repair in 1‐month and 12‐month studies. The repair used a fibrin hydrogel crosslinked with genipin (FibGen) to seal defects, poly(trimethylene carbonate) (PTMC) scaffolds to replace lost AF tissue, and polyurethane membranes to prevent herniation. In the 1‐month study, PTMC scaffolds sealed with FibGen herniated with polyurethane membranes. When applied alone, FibGen integrated with the surrounding AF tissue without herniation, showing promise for long‐term studies. The 12‐month long‐term study used only FibGen which showed fibrous healing, biomaterial resorption and no obvious hydrogel‐related complications. However, the 2 mm biopsy punch injury condition also exhibited fibrotic healing at 12 months. Both untreated and FibGen treated groups showed equivalency with no detectable differences in histological grades of proteoglycans, cellular morphology, IVD structure and blood vessel formation, biomechanical properties including torque range and axial range of motion, Pfirrmann grade, IVD height, and quantitative scores of vertebral body changes from clinical computed tomography. The biopsy‐type injury caused endplate defects with a high prevalence of osteophytes in all groups and no nucleus herniation, indicating that the biopsy‐type injury requires further refinement, such as reduction to a slit‐type defect that could penetrate the full depth of the AF without damaging the endplate. Results demonstrate translational feasibility of FibGen for AF repair to seal AF defects, although future study with a more refined injury model is required to validate the efficacy of FibGen before translation.</p>
+			<p><a href= "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084058/pdf/JSP2-3-e1074.pdf" class="read-more-link"> Read more >></a></p>
+		</main>
+</section>
+
+<br>
+<frame>
+<section>
+
+<h2><a href="https://www.rosegiroux.github.io/IMG_0060.JPG" class="read-more-link">Functional cell phenotype induction with TGF-β1 and collagen-polyurethane scaffold for annulus fibrosus rupture repair</a></h2>
+
+
+	<nav>
+		<ul>
+			<li>PMID: 31899537  PMCID:<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027376/pdf/nihms-1067018.pdf">PMC7027376</a>  DOI: 10.22203/eCM.v039a01</li>
+		</ul>
+	</nav>
+  
+	<main>
+		<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027376/" class="read-more-link">Link</a></p>
+		<p><h3>Abstract</h3></p>
+		<p> <a style="line-height: 1.5;">Appropriate cell sources, bioactive factors and biomaterials for generation of functional and integrated annulus fibrosus (AF) tissue analogues are still an unmet need. In the present study, the AF cell markers, collagen type I, cluster of differentiation 146 (CD146), mohawk (MKX) and smooth muscle protein 22α (SM22α) were found to be suitable indicators of functional AF cell induction. In vitro 2D culture of human AF cells showed that transforming growth factor β1 (TGF-β1) upregulated the expression of the functional AF markers and increased cell contractility, indicating that TGF-β1-pre-treated AF cells were an appropriate cell source for AF tissue regeneration. Furthermore, a tissue engineered construct, composed of polyurethane (PU) scaffold with a TGF-β1-supplemented collagen type I hydrogel and human AF cells, was evaluated with in vitro 3D culture and ex vivo preclinical bioreactor-loaded organ culture models. The collagen type I hydrogel helped maintaining the AF functional phenotype. TGF-β1 supplement within the collagen I hydrogel further promoted cell proliferation and matrix production of AF cells within in vitro 3D culture. In the ex vivo IVD organ culture model with physiologically relevant mechanical loading, TGF-β1 supplement in the transplanted constructs induced the functional AF cell phenotype and enhanced collagen matrix synthesis. In conclusion, TGF-β1-containing collagen-PU constructs can induce the functional cell phenotype of human AF cells in vitro and in situ. This combined cellular, biomaterial and bioactive agent therapy has a great potential for AF tissue regeneration and rupture repair.</p>
+		<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027376/pdf/nihms-1067018.pdf" class="read-more-link" >Read more >></a></p>
+	</main>
+
+</section>
+
+<br>
+
+<section>
+
+<h2>Effects of Level, Loading Rate, Injury and Repair on Biomechanical Response of Ovine Cervical Intervertebral Discs</h2>
+
+	<nav>
+		<ul>
+			<li>PMCID: PMC6279553
+				NIHMSID: NIHMS976874
+				PMID: 29926304</li>
+		</ul>
+	</nav>
+  
+	<main>
+  	  <p><a href="https://pubmed.ncbi.nlm.nih.gov/29926304/">Link</a></p>
+   	  <p><h3>Abstract</h3></p>
+	  <p> <a style="line-height: 1.5;">A need exists for pre-clinical large animal models of the spine to translate biomaterials capable of repairing intervertebral disc defects.This study characterized the effects of cervical spinal level, loading rate as well as injury and repair with genipin-crosslinked fibrin (FibGen) on axial and torsional mechanics in an ovine cervical spine model. Cervical intervertebral discs C2-C7) from 9 animals were tested with cyclic tension-compression (−240 – 100 N) and cyclic torsion (±2° & ±4°) tests at three rates (0.1, 1 & 2 Hz) in intact, injured and repaired conditions. Intact IVDs from upper cervical levels (C2-C4) had significantly higher torque range and torsional stiffness and significantly lower axial range of motion and tensile compliance than IVDs from lower cervical levels (C5-C7). A 10× increase in loading rate significantly increased torque range and torsional stiffness 4–8% (depending on amplitude) (p < 0.001). When normalized to intact, FibGen significantly restored torque range (FibGen: 0.96±0.14, Injury: 0.88±0.14, p = 0.03) and axial range of motion (FibGen: 1.00±0.05, Injury: 1.04±0.15, p = 0.02) compared to Injury, with a values of 1 indicating full repair. Cervical spinal level must be considered for controlling biomechanical evaluations, and FibGen restored some torsional and axial biomechanical properties to intact levels.</p>
+	 <p> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6279553/pdf/nihms976874.pdf" class="read-more-link">Read more >></a></p>
+	</main>
+
+</section>
+
+<br>
+
+</article>
+
+
+<section> <h2><mark>Further Research</mark></h2>
+<p>All research including collaborations</p>
+<div id="rss-feed"></div>
+</section>
+	
+		
+ 
+    
+    <nav><h2><mark>Links</mark></h2>
+    <p>
+    <ul>
+
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Long+RG&cauthor_id=31899537" class="extra-link">My publications on Pubmed</a></li>
+    <li><a href="https://biology.stackexchange.com/" class="extra-link" >Stack Exchange Biology</a></li>
+    <li><a href="https://stackoverflow.com/" class="extra-link" >Stack Overflow</a></li>
+   <li><a href="https://www.boltonvalley.com/the-resort/live-webcams/" class="extra-link">Is it time to ski yet?</a></li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/help/#using-search-field-tags" class="extra-link">Pubmed Search field tags</a></li>
+  <li><a href="https://www.accuweather.com/en/us/boston/02108/weather-forecast/348735" class="extra-link">Weather: Boston, MA</a></li>
+  <li><a href="https://www.isitfridayyet.net" class="extra-link">Is it Friday yet?</a></li>
+    
+     </ul>
+     </p>
+     </nav>
+  
+
+  
+  
+  
+  
+  
+  
+  
+</body>
+  
+
+  
+</html>
