@@ -1,0 +1,56 @@
+{
+  "pathClasses": [
+    {
+      "name": "Necrosis",
+      "color": -13487566
+    },
+    {
+      "name": "Other",
+      "color": -14336
+    },
+    {
+      "name": "Region*",
+      "color": -16777036
+    },
+    {
+      "name": "Ignore*",
+      "color": -4934476
+    },
+    {
+      "name": "Positive",
+      "color": -377282
+    },
+    {
+      "name": "Negative",
+      "color": -9408287
+    },
+    {
+      "name": "ventralAF",
+      "color": -6484108
+    },
+    {
+      "name": "dorsalAF",
+      "color": -510409
+    },
+    {
+      "name": "Notochord_IVD",
+      "color": -16205215
+    },
+    {
+      "name": "Vertebra",
+      "color": -6791860
+    },
+    {
+      "name": "NotochordVB",
+      "color": -2468482
+    },
+    {
+      "name": "brachyury+ive",
+      "color": -7339591
+    },
+    {
+      "name": "brachyury-ve",
+      "color": -12989755
+    }
+  ]
+}
